@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Life Capital</title>
+    <script>
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
+      analytics.load("JebRnMV3Zyoug3MzhgaYxghuiUzBXvZB");
+      analytics.page();
+      }}();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+  </head>
+  <body>
+  <section class="hero section is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <img id="logo" class="column" src="img/life_capital_logo.svg" alt="Life Capital Logo"/>
+        <p id="mail" class="column">
+          if you'd like to say hello, send us an <a href="mailto:info@life-cap.com">   <i class="far fa-envelope"></i></a>
+        </p>
+        <script type="text/javascript">
+          var mail = document.getElementById('mail');
+          analytics.trackLink(mail, 'Clicked CTA', {
+            text: 'Mail',
+            category: 'Home Page',
+            type: 'Link',
+            pageTitle: document.title
+          });
+        </script>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <p id="rights" class="column is-centered">
+        ©2019 Life Capital Holdings LLC. All rights reserved.
+      </p>
+    </div>
+  </section>
+  </body>
+</html>
