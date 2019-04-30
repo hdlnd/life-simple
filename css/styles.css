@@ -54,5 +54,6 @@ a:visited {
 }
 
 .fa-envelope {
-  margin-left: .25rem;
+  margin-left: .1rem;
+  margin-bottom: -1px;
 }
